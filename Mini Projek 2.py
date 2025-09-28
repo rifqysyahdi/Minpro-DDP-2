@@ -130,5 +130,4 @@ if hasil_login["status"]:
         menu_user(riwayat_pengeluaran, uang_awal)
     elif hasil_login["role"] == "admin":
         menu_admin(riwayat_pengeluaran, uang_awal)
-else:
-    print("Program selesai.")
+
